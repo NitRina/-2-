@@ -29,4 +29,4 @@
 | **2**    | Какое-то дз | Тут будет ссылка |
 | **3**    | Ещё какое-то дз | И тут тоже |
 
-![](https://tenor.com/view/cat-laptop-workaholic-funny-animals-gif-12212048)
+![](https://media.giphy.com/media/AVu4qVBN6PFgk/giphy.gif)
