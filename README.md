@@ -29,4 +29,4 @@
 | **2**    | Какое-то дз | Тут будет ссылка |
 | **3**    | Ещё какое-то дз | И тут тоже |
 
-![](https://media.giphy.com/media/maNB0qAiRVAty/giphy.gif) ![](https://media.giphy.com/media/xUPGcMpoxSZdiLTv7q/giphy.gif)
+![](https://media.giphy.com/media/maNB0qAiRVAty/giphy.gif) ![](http://06.imgmini.eastday.com/mobile/20171126/d49dfc80fba38945aed3a37aad9535dc.gif)
