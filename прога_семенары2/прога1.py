@@ -3,16 +3,18 @@
 
 import random
 
-array = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-array = list(array)
-x = random.choice(array)
-letter = input('Угадайте загаданную букву латинского алфавита ')
-if letter in array:
-    if letter == x:
-        print('вы угадали')
-    else:
-        print('вы не угадали, загаданная буква', x)
+letters = 'abcdefghijklmnopqrstuvwxyz'
+letter = letters[random.randint(0,25)]
 
-else:
-    print('это не буква латинского алфавита')
-    
+while True:
+    guess = input('Type a lower-case letter:   ')
+    if guess not in letters:
+        print('That is not a lower-case letter:   ')
+        continue
+    if guess == letter:
+        print('You won!')
+        break
+    if guess > letter:
+        print('It is earlier in the alphabet')
+    else:
+        print('It is later in the alphabet')
