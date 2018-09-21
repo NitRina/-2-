@@ -6,8 +6,6 @@
 
 **********
 
-[PEP](http://pep8.org)
-
 * Домашние задания за I курс: [вот там](https://github.com/NitRina/rina_proga)
 
 * Домашние задания за II курс:
