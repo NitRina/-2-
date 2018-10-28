@@ -12,7 +12,7 @@
 | :------------- |:-------------| :-----|
 | **1**    | Игра \"Виселица\" | [здесь](https://github.com/NitRina/proga2.0/tree/master/hw/hw1) |
 | **2**    | GitHub Users | [вот](https://github.com/NitRina/proga2.0/blob/master/hw/hw2/hw2.ipynb) |
-| **3**    | Собери корпус из газет | Уже скоро |
+| **3**    | Собери корпус из газет | [готово](https://github.com/NitRina/proga2.0/tree/master/hw/hw3) |
 | **4**    | Ещё какое-то дз | Тут когда-нибудь будет ссылка |
 
 
