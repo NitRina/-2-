@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			body {
+				background-image: url(https://pp.userapi.com/c846321/v846321365/13df79/nwzr8JbVj2A.jpg);
+			}
+			.information {
+				background-color: rgba(255, 255, 255, 0.7);
+				width: 70%;
+				margin: 3% 15% 3% 15%;
+				font-family: Verdana;
+				font-size: 20px;
+			}
+			h1 {
+				font-family: Verdana;
+				font-size: 70px;
+				color: #721422;
+			}
+            .menu {
+                font-family: Verdana;
+                font-size: 30px;
+                color: #721422;
+            }
+			.about {
+				font-size: 20px;
+				padding: 60px;
+			}
+			hr {
+				border: none;
+				color:#721422;
+				background-color: #721422;
+				height: 5px;
+			}
+            .butggton {
+                text-decoration: none;
+                color: white;
+                background: #721422;
+                padding:5px 8px;
+                border: 1px solid white;
+                border-radius: 3px;
+                margin: 20px auto;
+                text-align:center;
+                display:block;
+                width:120px;
+                position: relative;
+                height:25px;
+                font: 400 16px verdana;
+            }
+
+		</style>
+		<title>Моя страница c:</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<div class="information">
+			<h1><center>Поиск</center></h1>
+			<hr>
+            <div class="about">
+                <p>Поиск осуществляется по ключевому слову и гендру.</p>
+                <p>Если хотите посмотреть все результаты, выберите оба гендера и не вводите ключевых слов.</p>
+                <p>Символы со знаком ударения при необходимости можно скопировать отсюда é о́.</p>
+                <form action="/search">
+                    <p>Слово (поиск по словам): <input type="text" name="word"><Br>
+                    <p>Гендер:
+                    <input type="checkbox" name="gender" value="Мужской" checked>Мужской
+                    <input type="checkbox" name="gender" value="Женский" checked>Женский<br>
+                    <p><input class="butggton" type="submit" value="Отправить"></p>
+                </form>
+                <table>
+                    <tr>
+                        <th>Гендер</th><th>Возраст</th><th>Регион</th><th>Название олимпиады</th>
+                    </tr>
+                    {% for row in results %}
+                        <tr>
+                        {% for col in row %}
+                            <td>{{ col }}</td>
+                        {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+            <div class="about">
+                <p><a class="menu" href="http://127.0.0.1:5000/json">Посмотреть данные в json</a></p>
+                <p><a class="menu"  href="http://127.0.0.1:5000/">Пройти опрос ещё раз</a></p>
+                <p><a class="menu" href="http://127.0.0.1:5000/stats">Посмотреть статистику</a></p>
+                <p>Если у вас возникли какие-либо вопросы их можно задать мне по почте ira.nitsevitch@yandex.ru или в контакте <a href="https://vk.com/irina.witch">vk.com</a></p>
+            </div>
+			<hr>
+			<p>Большое спасибо за интерес к этому исследованию!</p>
+		</div>
+	</body>
+</html>
